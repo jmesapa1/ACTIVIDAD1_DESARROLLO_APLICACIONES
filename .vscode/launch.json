@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-EurekaApplication<eureka>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.werentmedellin.eureka.EurekaApplication",
+            "projectName": "eureka",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-GeneradorContratosApplication<generador-contratos>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.werentmedellin.generadorcontratos.GeneradorContratosApplication",
+            "projectName": "generador-contratos",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
